@@ -9,8 +9,7 @@ This project demonstrates how to leverage **Snowflake Cortex Search** for financ
 - **Streamlit Dashboard**: Visualize financial insights interactively.
 
 
-![image](https://github.com/user-attachments/assets/cd0a3f88-07ae-4710-8168-98d8818a88ff)
-
+![image](https://github.com/user-attachments/assets/a9d73f0b-a8cb-47cc-b167-55b7c462fbbb)
 
 
 ## Setup Instructions
