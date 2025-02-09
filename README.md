@@ -266,6 +266,7 @@ Upload the streamlit_app.py and the environment.yml file to stage of your Stream
 Snowflake Cortex Analyst processes textual financial data to classify sentiment and risk factors.
 Upload the investment_analyst.yaml file to @docs stage.
 
+![image](https://github.com/user-attachments/assets/92eb6a47-7585-4813-92a7-b49bc65b366a)
 
 
 
