@@ -277,9 +277,11 @@ The investment_analyst.yaml file is the Semantic Model that is needed for Cortex
 
 ### 3. Starting Investment_Cortex Streamlit App in Snowflake
 Starting the Streamlit App
+
 ![image](https://github.com/user-attachments/assets/1f534501-dab8-41af-b121-61d38e124fb4)
 
 Select the LLM that you want to use 
+
 ![image](https://github.com/user-attachments/assets/7c763517-f683-47de-84e0-0387b9aef6af)
 
 
