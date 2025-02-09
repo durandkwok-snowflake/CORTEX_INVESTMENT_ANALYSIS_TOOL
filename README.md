@@ -251,9 +251,6 @@ INSERT OVERWRITE INTO portfolio_holdings VALUES
     ('INV033', 'NEM', 140, 50.00, 53.00, 'Materials');
 
 
-    
-
-
 
 ```
 
@@ -261,24 +258,14 @@ INSERT OVERWRITE INTO portfolio_holdings VALUES
 ## Using Snowflake Cortex
 ### 1. Researching Financial News with Cortex Search
 Snowflake Cortex Search allows users to retrieve the most relevant financial news articles based on a query.
+Upload the streamlit_app.py and the environment.yml file to stage of your Streamlit in Snowflake application.
+![image](https://github.com/user-attachments/assets/fcd8a2a2-c995-403d-a854-b220248f60e9)
 
-**Example Query:**
-```sql
-SELECT * FROM TABLE(CORTEX_SEARCH(
-    'financial_news_dataset', 'Federal Reserve interest rate policy impact'
-));
-```
-This query fetches news articles related to **Federal Reserve interest rate changes** and their effect on the market.
 
 ### 2. Analyzing Portfolio Risk with Cortex Analyst
 Snowflake Cortex Analyst processes textual financial data to classify sentiment and risk factors.
+Upload the investment_analyst.yaml file to @docs stage.
 
-**Example Query:**
-```sql
-SELECT stock_symbol, CORTEX_ANALYST(sentiment, risk_classification)
-FROM portfolio_holdings;
-```
-This query analyzes the **sentiment and risk classification** for each stock in a portfolio.
 
 
 
