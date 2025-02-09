@@ -263,6 +263,7 @@ INSERT OVERWRITE INTO portfolio_holdings VALUES
 ## Using Snowflake Cortex
 ### 1. Researching Financial News with Cortex Search
 Snowflake Cortex Search allows users to retrieve the most relevant financial news articles based on a query.
+The following streamlit_app.py and the environment.yml file are Streamlit Application files. The py file contains python code that sets up Cortex Search as well as Cortex Analyst.
 Upload the streamlit_app.py and the environment.yml file to stage of your Streamlit in Snowflake application.
 ![image](https://github.com/user-attachments/assets/fcd8a2a2-c995-403d-a854-b220248f60e9)
 
@@ -270,6 +271,7 @@ Upload the streamlit_app.py and the environment.yml file to stage of your Stream
 ### 2. Analyzing Portfolio Risk with Cortex Analyst
 Snowflake Cortex Analyst processes textual financial data to classify sentiment and risk factors.
 Upload the investment_analyst.yaml file to @docs stage.
+The investment_analyst.yaml file is the Semantic Model that is needed for Cortex Analyst to talk to your structure portfolio data
 
 ![image](https://github.com/user-attachments/assets/92eb6a47-7585-4813-92a7-b49bc65b366a)
 
