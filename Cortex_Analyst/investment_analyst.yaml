@@ -1,0 +1,135 @@
+name: investment_analyst
+description: ''
+tables:
+  - name: DOCS_CHUNKS_TABLE
+    base_table:
+      database: CORTEX_INVESTMENT_ANALYSIS_DEMO
+      schema: PUBLIC
+      table: DOCS_CHUNKS_TABLE
+    dimensions:
+      - name: RELATIVE_PATH
+        expr: RELATIVE_PATH
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - Apple_Posts_Record_Q1_Revenue,_But_Cautious_on_2025_Growth.pdf
+          - Bitcoin_Crashes_15%_After_SEC_Rejects_Spot_ETF.pdf
+          - Federal_Reserve_Signals_March_Rate_Hike_Amid_Inflation_Concerns.pdf
+        description: The file path of a document, relative to a root directory, which can be used to identify and organize documents in a hierarchical structure.
+        synonyms:
+          - path_from_root
+          - directory_path
+          - file_location
+          - nested_path
+          - hierarchical_path
+      - name: CHUNK
+        expr: CHUNK
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - '{"content":"\n# Apple Posts Record Q1 Revenue, But Cautious on 2025 Growth\n  \nSource: Bloomberg Date: February 5,2025 Time: 4:15 P M ETApple Inc. ($AApL) reported record quarterly revenue of $138.7 billion, surpassing analysts'' estimates of $135.2 billion, driven by strong iPhone 16 sales and increased services revenue.CEo Tim Cook highlighted higher demand in international markets, but warned that supply chain constraints could impact production in the second half of the year.  \nMarket Impact:\n- AAPL: Likely positive short-term reaction, but risks remain for H2 2025\n- Tech Sector: Other hardware-dependent companies (TSMC, Qualcomm) may be impacted.\n- Consumer Sentiment: Strong Apple earnings suggest consumer spending remains healthy\n","metadata":{"pageCount":1}}'
+          - '{"content":"\n# Bitcoin Crashes 15% After SEC Rejects Spot ETF\n  \nSource: CoinDesk Date: February 2, 2025 Time: 10:30 AM ETThe SEc has rejected another application for a spot Bitcoin ETF, citing concerns over market manipulation and liquidity risks. The decision triggered a 15% decline in Bitcoins price, dropping it below $35,000 for the first time in four months.  \nMarket Impact:\n- Crypto S tocks: Declines in Coinbase, MicroStrategy, and mining companies.\n- Risk Sentiment: Broader risk-off environment in speculative assets\n- Regulatory Uncertainty: Increased scrutiny on digital assets\n","metadata":{"pageCount":1}}'
+          - '{"content":"\n# Federal Reserve Signals March Rate Hike Amid Inflation Concerns\n  \nSource: W all S treet J ournal Date: February 6,2025 Time: 8:30 AM ETThe Federal Reserve signaled on Wednesday that it may raise interest rates by 25 basis points at its next meeting in March as inflation remains stubbornly above 3%. Fed Chair Jerome Powell stated that while inflation has moderated, the labor market remains tight, and core inflation metrics suggest more tightening may be needed.Markets reacted swiftly, with the S&P 500 falling 1.2% in early trading and 10-year Treasury yields rising to 4.35%.  \nM arket Impact:\n- Tech & Growth Stocks: Likely decline due to rising borrowing costs.\n* Banking Sector: May benefit from higher interest rates\n- Bonds: Yields increase as investors anticipate Fed action.\n","metadata":{"pageCount":1}}'
+        synonyms:
+          - segment
+          - portion
+          - block
+          - piece
+          - section
+        cortex_search_service_name: CORTEX_INVESTMENT_ANALYSIS_DEMO.PUBLIC.FINANCIAL_NEWS_SEARCH
+    time_dimensions:
+      - name: PROCESSED_TIMESTAMP
+        expr: PROCESSED_TIMESTAMP
+        data_type: TIMESTAMP_LTZ(9)
+        sample_values:
+          - '2025-02-06T13:59:32.492-08:00'
+        description: The timestamp when the document chunk was last processed.
+        synonyms:
+          - processed_date
+          - timestamp_processed
+          - last_updated
+          - update_timestamp
+          - processing_time
+          - timestamp_completed
+  - name: PORTFOLIO_HOLDINGS
+    base_table:
+      database: CORTEX_INVESTMENT_ANALYSIS_DEMO
+      schema: PUBLIC
+      table: PORTFOLIO_HOLDINGS
+    dimensions:
+      - name: INVESTOR_ID
+        expr: INVESTOR_ID
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - INV001
+          - INV002
+          - INV003
+        description: Unique identifier for each investor in the portfolio, used to associate holdings with a specific investor.
+        synonyms:
+          - account_holder
+          - client_id
+          - investor_code
+          - portfolio_owner
+          - user_id
+      - name: ASSET_SYMBOL
+        expr: ASSET_SYMBOL
+        data_type: VARCHAR(16777216)
+        sample_values:
+          - AAPL
+          - GOOGL
+          - TSLA
+        description: Unique identifier for a publicly traded company's stock, represented by a ticker symbol, which is used to identify the security in the portfolio holdings.
+        synonyms:
+          - stock_code
+          - ticker
+          - instrument_id
+          - security_id
+          - asset_code
+          - symbol
+          - ticker_symbol
+      - expr: sector
+        name: sector
+        data_type: VARCHAR(16777216)
+    measures:
+      - name: QUANTITY
+        expr: QUANTITY
+        data_type: FLOAT
+        sample_values:
+          - '100'
+          - '50'
+          - '75'
+        description: The number of shares or units of a particular security held in a portfolio.
+        synonyms:
+          - amount
+          - volume
+          - count
+          - size
+          - num_shares
+          - holdings
+          - units
+      - name: PURCHASE_PRICE
+        expr: PURCHASE_PRICE
+        data_type: FLOAT
+        sample_values:
+          - '150'
+          - '2800'
+          - '700'
+        description: The price at which a security was originally purchased and added to the portfolio.
+        synonyms:
+          - buy_price
+          - acquisition_cost
+          - cost_basis
+          - purchase_amount
+          - buying_price
+      - name: CURRENT_PRICE
+        expr: CURRENT_PRICE
+        data_type: FLOAT
+        sample_values:
+          - '180'
+          - '2900'
+          - '650'
+        description: The current market price of each security held in the portfolio.
+        synonyms:
+          - current_value
+          - market_price
+          - latest_price
+          - present_price
+          - today_price
