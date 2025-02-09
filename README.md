@@ -268,6 +268,12 @@ Upload the investment_analyst.yaml file to @docs stage.
 
 ![image](https://github.com/user-attachments/assets/92eb6a47-7585-4813-92a7-b49bc65b366a)
 
+### 3. Starting Investment_Cortex Streamlit App in Snowflake
+Starting the Streamlit App
+![image](https://github.com/user-attachments/assets/1f534501-dab8-41af-b121-61d38e124fb4)
+
+![image](https://github.com/user-attachments/assets/88bce07d-acf3-4bf2-b034-b39baef85746)
+
 
 
 
