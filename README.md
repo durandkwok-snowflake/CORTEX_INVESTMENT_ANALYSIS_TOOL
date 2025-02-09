@@ -8,6 +8,11 @@ This project demonstrates how to leverage **Snowflake Cortex Search** for financ
 - **Portfolio Risk Analysis**: Apply **Snowflake Cortex Analyst** to assess sentiment and classify risk levels.
 - **Streamlit Dashboard**: Visualize financial insights interactively.
 
+
+![image](https://github.com/user-attachments/assets/cd0a3f88-07ae-4710-8168-98d8818a88ff)
+
+
+
 ## Setup Instructions
 ### 1. Prerequisites
 - **Snowflake Account** with **Cortex Search & Analyst** enabled.
@@ -279,7 +284,7 @@ Type in your question(s) in the text box.
 
 ![image](https://github.com/user-attachments/assets/de7921bb-c714-4ce4-acd1-e7e000f17367)
 
-Then use Cortex Analyst to perform analysis on your structured data
+Then use Cortex Analyst to perform analysis on your structured data by typing in your question in the texts box
 
 ![image](https://github.com/user-attachments/assets/b6af641b-da85-4314-a87a-73539b91f7b4)
 
