@@ -272,9 +272,11 @@ Upload the investment_analyst.yaml file to @docs stage.
 Starting the Streamlit App
 ![image](https://github.com/user-attachments/assets/1f534501-dab8-41af-b121-61d38e124fb4)
 
+Select the LLM that you want to use then select from the list of Financial News document to research.
 ![image](https://github.com/user-attachments/assets/88bce07d-acf3-4bf2-b034-b39baef85746)
 
-
+Type in your question(s) in the text box.
+![image](https://github.com/user-attachments/assets/de7921bb-c714-4ce4-acd1-e7e000f17367)
 
 
 
