@@ -291,4 +291,14 @@ Then use Cortex Analyst to perform analysis on your structured data by typing in
 
 ![image](https://github.com/user-attachments/assets/b6af641b-da85-4314-a87a-73539b91f7b4)
 
+### 4. Example:
+Start with Financial News Research
+
+![image](https://github.com/user-attachments/assets/2031d3af-f033-4141-976f-b8625539c169)
+
+Then Continue on with Portfolio Analysis
+
+![image](https://github.com/user-attachments/assets/75af07ff-f60b-40f4-965c-23913950a2c1)
+
+![image](https://github.com/user-attachments/assets/5125e256-3e43-4e45-915d-cbcd2d8c2ca5)
 
