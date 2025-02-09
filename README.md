@@ -1,4 +1,4 @@
-# Financial News Research & Portfolio Analysis with Snowflake Cortex
+# Financial News Research & Portfolio Analysis with Snowflake Cortex Search and Cortex Analyst
 
 Overview
 
