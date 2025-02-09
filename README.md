@@ -279,10 +279,11 @@ The investment_analyst.yaml file is the Semantic Model that is needed for Cortex
 Starting the Streamlit App
 ![image](https://github.com/user-attachments/assets/1f534501-dab8-41af-b121-61d38e124fb4)
 
-Select the LLM that you want to use then select from the list of Financial News document to research.
-
+Select the LLM that you want to use 
 ![image](https://github.com/user-attachments/assets/7c763517-f683-47de-84e0-0387b9aef6af)
 
+
+Then select from the list of Financial News document to research.
 
 ![image](https://github.com/user-attachments/assets/1240eea7-0e99-4c7f-a1b2-90c1b375c6bc)
 
