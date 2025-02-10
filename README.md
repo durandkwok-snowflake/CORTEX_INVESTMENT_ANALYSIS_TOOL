@@ -310,10 +310,10 @@ Then use Cortex Analyst to perform analysis on your structured data by typing in
 
 ### 4. Example:
 Start with Financial News Research
-
+I)
 ![image](https://github.com/user-attachments/assets/012aa5bc-6f03-44be-9113-f3615ea7bfab)
 
-
+II)
 ![image](https://github.com/user-attachments/assets/2031d3af-f033-4141-976f-b8625539c169)
 
 Then Continue on with Portfolio Analysis
