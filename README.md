@@ -280,7 +280,7 @@ Upload and replace with the streamlit_app.py and the environment.yml files from 
 
 ### 2. Analyzing Portfolio Risk with Cortex Analyst
 Snowflake Cortex Analyst processes textual financial data to classify sentiment and risk factors.
-Upload the investment_analyst.yaml file to @docs stage.
+Upload the investment_analyst.yaml file to @docs internal stage.
 The investment_analyst.yaml file is the Semantic Model that is needed for Cortex Analyst to talk to your structure portfolio data
 
 ![image](https://github.com/user-attachments/assets/92eb6a47-7585-4813-92a7-b49bc65b366a)
