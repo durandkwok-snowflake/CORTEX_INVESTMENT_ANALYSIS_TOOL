@@ -286,25 +286,25 @@ The investment_analyst.yaml file is the Semantic Model that is needed for Cortex
 ![image](https://github.com/user-attachments/assets/92eb6a47-7585-4813-92a7-b49bc65b366a)
 
 ### 3. Starting Investment_Cortex Streamlit App in Snowflake
-Starting the Streamlit App
+**Starting the Streamlit App**
 
 ![image](https://github.com/user-attachments/assets/1f534501-dab8-41af-b121-61d38e124fb4)
 
-Select the LLM that you want to use 
+**Select the LLM that you want to use **
 
 ![image](https://github.com/user-attachments/assets/7c763517-f683-47de-84e0-0387b9aef6af)
 
 
-Then select from the list of Financial News document to research.
+**Then select from the list of Financial News document to research.**
 
 ![image](https://github.com/user-attachments/assets/1240eea7-0e99-4c7f-a1b2-90c1b375c6bc)
 
 
-Type in your question(s) in the text box.
+**Type in your question(s) in the text box.**
 
 ![image](https://github.com/user-attachments/assets/de7921bb-c714-4ce4-acd1-e7e000f17367)
 
-Then use Cortex Analyst to perform analysis on your structured data by typing in your question in the texts box
+**Then use Cortex Analyst to perform analysis on your structured data by typing in your question in the texts box**
 
 ![image](https://github.com/user-attachments/assets/b6af641b-da85-4314-a87a-73539b91f7b4)
 
