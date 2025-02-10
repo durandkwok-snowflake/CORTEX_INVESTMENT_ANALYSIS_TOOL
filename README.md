@@ -262,6 +262,16 @@ INSERT OVERWRITE INTO portfolio_holdings VALUES
 ## Using Snowflake Cortex
 ### 1. Researching Financial News with Cortex Search
 Snowflake Cortex Search allows users to retrieve the most relevant financial news articles based on a query.
+Start by creaating the Streamlit App in Snowflake.
+
+![image](https://github.com/user-attachments/assets/48c87ce8-9883-43e7-aa3d-e26ef543754a)
+
+![image](https://github.com/user-attachments/assets/dba295b8-c41b-4c96-af66-dd89422144b3)
+
+Once the Streamlit App is created, it also creates an internal stage that contains the stream_app.py and the environment.yml files
+![image](https://github.com/user-attachments/assets/60bd61af-4301-48e7-8fda-be853ded627c)
+
+
 The following streamlit_app.py and the environment.yml file are Streamlit Application files. The py file contains python code that sets up Cortex Search as well as Cortex Analyst.
 Upload the streamlit_app.py and the environment.yml file to stage of your Streamlit in Snowflake application.
 
