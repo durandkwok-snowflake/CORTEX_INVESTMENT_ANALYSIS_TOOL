@@ -317,6 +317,11 @@ I)
 II)
 ![image](https://github.com/user-attachments/assets/2031d3af-f033-4141-976f-b8625539c169)
 
+Also you can experiment with different models:
+
+![image](https://github.com/user-attachments/assets/96c79c9c-3200-4d8f-97b0-bc4b4b2beaac)
+
+
 Then Continue on with Portfolio Analysis
 
 ![image](https://github.com/user-attachments/assets/75af07ff-f60b-40f4-965c-23913950a2c1)
