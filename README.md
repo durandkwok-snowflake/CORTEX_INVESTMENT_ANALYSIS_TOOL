@@ -273,7 +273,7 @@ Once the Streamlit App is created, it also creates an internal stage that contai
 
 
 The following streamlit_app.py and the environment.yml file are Streamlit Application files. The py file contains python code that sets up Cortex Search as well as Cortex Analyst.
-Upload the streamlit_app.py and the environment.yml file to stage of your Streamlit in Snowflake application.
+Upload and replace with the streamlit_app.py and the environment.yml files from this github to stage of your Streamlit in Snowflake application.
 
 ![image](https://github.com/user-attachments/assets/fcd8a2a2-c995-403d-a854-b220248f60e9)
 
