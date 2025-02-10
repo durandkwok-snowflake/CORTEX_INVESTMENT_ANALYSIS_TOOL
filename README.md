@@ -6,7 +6,7 @@ This project demonstrates how to leverage **Snowflake Cortex Search** for financ
 ## Features
 - **Financial News Research**: Use **Snowflake Cortex Search** to extract relevant financial articles and reports.
 - **Portfolio Risk Analysis**: Apply **Snowflake Cortex Analyst** to assess sentiment and classify risk levels.
-- **Streamlit Dashboard**: Visualize financial insights interactively.
+- **Streamlit Dashboard**: Find financial insights interactively.
 
 
 ![image](https://github.com/user-attachments/assets/a9d73f0b-a8cb-47cc-b167-55b7c462fbbb)
