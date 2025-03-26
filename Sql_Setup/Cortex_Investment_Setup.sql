@@ -108,6 +108,7 @@ ON chunk
 ATTRIBUTES category
 warehouse = investment_cortex_wh
 TARGET_LAG = '1 minute'
+EMBEDDING_MODEL = 'snowflake-arctic-embed-l-v2.0'
 as (
     select chunk,
         relative_path,
